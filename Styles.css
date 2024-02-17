@@ -1,0 +1,70 @@
+/*
+FONTS USED:
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .cantarell-regular {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  */
+  
+  header{
+    position: sticky; top: 0;
+    text-align: center; 
+    background-color: rgb(213, 189, 175);
+    /* background-image: linear-gradient(rgb(237, 237, 233),rgb(237, 237, 233),rgb(245, 235, 224),rgb(227, 213, 202),rgb(213, 189, 175)); */
+    height: 200px;
+}
+
+
+body {
+    background-color: #edede9;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+img{
+    border-radius: 5%;
+}
+
+main{
+    height: 1000px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro{
+    max-width: 500px;
+    text-align: center;
+}
+
+
+footer{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#edede9,#edede9,#f5ebe0,#e3d5ca,#d5bdaf);
+    height: 50px;
+    
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+ .centered{
+    text-align:center;
+ }
